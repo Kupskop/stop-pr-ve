@@ -19,7 +19,7 @@ nav {
     display: flex;
   }
 
-  ul :first-child {
+  ul :nth-child(1) {
     margin-left: 20px;
     margin-top: 2.5rem;
   }
@@ -42,7 +42,7 @@ nav {
   ul :nth-child(5) {
     margin-left: auto;
     margin-right: 70px;
-    margin-top: 2.5rem;
+    margin-top: 0.4rem;
   }
 
   a {

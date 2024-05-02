@@ -2,4 +2,82 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+nav {
+  margin: 0 auto;
+  background-color: #000000;
+  height: 120px;
+  max-width: 1366px;
+  color: #fbf7ea;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  ul :first-child {
+    margin-left: 20px;
+    margin-top: 2.5rem;
+  }
+
+  ul :nth-child(2) {
+    margin-left: 1px;
+    margin-top: 2.5rem;
+  }
+
+  ul :nth-child(3) {
+    margin-left: 1px;
+    margin-top: 2.5rem;
+  }
+
+  ul :nth-child(4) {
+    margin-left: auto;
+    font-weight: bold;
+  }
+
+  ul :nth-child(5) {
+    margin-left: auto;
+    margin-right: 70px;
+    margin-top: 2.5rem;
+  }
+
+  a {
+    color: #cecece;
+  }
+
+  a:hover {
+    color: #fff3c7;
+    border-bottom: #fff3c7 2px solid;
+  }
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/assets/img/Placement\ Area\ [ASSEThero][SIZEDefault][STATEDEFAULT].png);
+  max-width: 1366px;
+  margin: 0 auto;
+  text-align: center;
+  height: 648px;
+
+  h1 {
+    font-size: 56px;
+    color: #fff3c7;
+  }
+
+  p {
+    font-size: 16px;
+    color: #fbf7ea;
+  }
+
+  a {
+    padding: 13px 59px;
+    background-color: #fff3c7;
+    border-radius: 50px;
+    color: #000000;
+  }
 }

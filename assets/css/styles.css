@@ -115,13 +115,24 @@ nav {
   }
 
   div {
+    margin-top: 72px;
+    text-align: center;
     img {
       max-width: 528px;
       max-height: 448px;
+    }
+    h3 {
+      margin-top: 13px;
+      font-size: 24px;
+      color: #fbf7ea;
+    }
+    a {
+      color: #fff3c7;
     }
   }
 
   section {
     display: flex;
+    justify-content: space-evenly;
   }
 }

@@ -230,7 +230,7 @@ nav {
     margin-right: auto;
   }
 
-  a {
+  button {
     color: #000000;
     margin-right: 144px;
     background-color: #fff3c7;
@@ -273,4 +273,30 @@ footer {
     background-color: #3d7a5d;
     padding: 14px 18px;
   }
+}
+
+.kontact {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  left: 100%;
+  top: 0;
+  display: flex;
+  position: fixed;
+  transition: all 500ms;
+  background-color: #fbf7ea;
+
+  #k1 {
+    display: grid;
+    color: #fbf7ea;
+    background-color: #000000;
+    width: 896px;
+    height: 600px;
+  }
+}
+
+.active {
+  left: 0;
 }
